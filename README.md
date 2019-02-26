@@ -1,6 +1,6 @@
 This is the rewriter model described in ParaBank (Hu et al. 2019).
 
-Required packages are listed in `requirement.txt`.
+Required packages are listed in `requirement.txt`. Please download `params.best` from the project website and place it under this directory.
 
 Usage: `echo -e "This is a test.\tis|test\twas|exam" | ./paraphrase.sh`, where "is" and "test" are negative constraints, and "was" and "exam" are positive constraints.
 
