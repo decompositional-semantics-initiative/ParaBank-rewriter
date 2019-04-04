@@ -89,7 +89,7 @@ if __name__ == '__main__':
         if len(splitted_sent) >= 3:
             if splitted_sent[2] != '':
                 pos_constraints = splitted_sent[2].split('|')
-                sentence = sentence.split('\t')[0]
+        sentence = sentence.split('\t')[0]
         
         en_line = tokenizeEngWithSpacy(sentence, return_str=True)
         
